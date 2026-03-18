@@ -1,0 +1,147 @@
+﻿html{
+    font-family:'Franklin Gothic Book', 'Arial';
+}
+.header {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display:block;
+    float:left;
+    margin-top:10px;
+}
+
+td, th {
+    
+}
+
+th {
+    
+}
+.col-hd {
+    padding: 8px !important;
+    border: 1px solid #B2AEAE;
+    font-size: 0.7em !important;   
+    text-align: center;
+}
+.col-bd {
+    padding: 8px !important;
+    font-size: 0.7em;
+}
+
+.col-c{
+    text-align: center
+}
+
+.col-l {
+    text-align: left
+}
+
+.col-r {
+    text-align: right
+}
+
+.col-tw {
+    width: 350px !important;
+}
+
+.col-t1{
+    width:280px !important;
+}
+
+.col-t2 {
+    width: 150px !important;
+}
+
+.col-col{
+    font-size:0.7em !important;
+    padding: 15px !important;
+    display:block
+}
+
+.tbcol {
+    border-spacing: 15px;
+}
+
+
+table th {
+    background-color: #B2AEAE;
+    color: #000000;
+ }
+
+div {
+    width:100%;
+    display: block;
+    float: left;
+}
+.item-dg {
+    float: left;
+    width: 200px !important;
+    padding: 6px 40px;
+    font-size: 0.8em !important;
+    font-weight: bold;
+}
+
+.dp-dg {
+    float: left;
+    padding-top: 5px;
+    font-size: 0.8em !important;
+    font-weight: bold;
+}
+
+.txt-dg {
+    float: left;
+    padding-left:15px;
+    padding-top: 5px;
+    font-size: 0.8em !important
+}
+
+.dir-dg {
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 350px !important;
+    font-size: 0.8em !important
+}
+
+.sec-datos{
+    width:80%;
+    float: left;
+}
+
+.sec-foto {
+    width: 20%;
+    float: left;
+}
+
+img{
+    display:block;
+    width:160px;
+    height:200px;
+    border: 2px solid #444;
+    margin-top:-30px
+}
+
+h3 {
+    font-size: 0.9em !important
+}
+.title-h3 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 0.9em !important
+}
+
+.subtitle-h3 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size: 0.9em !important
+}

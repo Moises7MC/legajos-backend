@@ -1,0 +1,71 @@
+﻿@model IEnumerable<WebApiCV.Entity.LegArchivos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CPerCodigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CLegArcNombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NLegArcTipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CUsuRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DFechaRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CUsuModifica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DFechaModifica)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPerCodigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CLegArcNombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NLegArcTipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CUsuRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DFechaRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CUsuModifica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DFechaModifica)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NLegArcCodigo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NLegArcCodigo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NLegArcCodigo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

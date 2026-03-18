@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\gsitec\\sistemas\\uss\\2025\\contrato2\\webapicv\\webapicv\\templatepdf\\legajotemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\templatepdf\\legajotemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\gsitec\\sistemas\\uss\\2025\\contrato2\\webapicv\\webapicv\\controllers\\legdatosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\controllers\\legdatosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\gsitec\\sistemas\\uss\\2025\\contrato2\\webapicv\\webapicv\\entity\\legdatosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\entity\\legdatosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 847,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LegDatosGenerales.cs",
+              "DocumentMoniker": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\Entity\\LegDatosGenerales.cs",
+              "RelativeDocumentMoniker": "WebApiCV\\Entity\\LegDatosGenerales.cs",
+              "ToolTip": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\Entity\\LegDatosGenerales.cs",
+              "RelativeToolTip": "WebApiCV\\Entity\\LegDatosGenerales.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAIA3wNYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T13:36:34.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LegDatosGeneralesController.cs",
+              "DocumentMoniker": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "RelativeDocumentMoniker": "WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "ToolTip": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "RelativeToolTip": "WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "ViewState": "AgIAAA8DAAAAAAAAAAAEwB8DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T01:47:33.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LegajoTemplate.cs",
+              "DocumentMoniker": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\TemplatePDF\\LegajoTemplate.cs",
+              "RelativeDocumentMoniker": "WebApiCV\\TemplatePDF\\LegajoTemplate.cs",
+              "ToolTip": "D:\\GSITEC\\SISTEMAS\\USS\\2025\\CONTRATO2\\WebApiCV\\WebApiCV\\TemplatePDF\\LegajoTemplate.cs",
+              "RelativeToolTip": "WebApiCV\\TemplatePDF\\LegajoTemplate.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAcwBwBAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T23:45:28.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿@model WebApiCV.Entity.LegArchivos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>LegArchivos</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CPerCodigo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CPerCodigo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CLegArcNombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CLegArcNombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NLegArcTipo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NLegArcTipo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CUsuRegistro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CUsuRegistro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DFechaRegistro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DFechaRegistro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CUsuModifica)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CUsuModifica)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DFechaModifica)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DFechaModifica)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.NLegArcCodigo">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

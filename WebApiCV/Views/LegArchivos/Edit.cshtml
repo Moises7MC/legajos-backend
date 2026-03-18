@@ -1,0 +1,64 @@
+﻿@model WebApiCV.Entity.LegArchivos
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>LegArchivos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NLegArcCodigo" />
+            <div class="form-group">
+                <label asp-for="CPerCodigo" class="control-label"></label>
+                <input asp-for="CPerCodigo" class="form-control" />
+                <span asp-validation-for="CPerCodigo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CLegArcNombre" class="control-label"></label>
+                <input asp-for="CLegArcNombre" class="form-control" />
+                <span asp-validation-for="CLegArcNombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NLegArcTipo" class="control-label"></label>
+                <input asp-for="NLegArcTipo" class="form-control" />
+                <span asp-validation-for="NLegArcTipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CUsuRegistro" class="control-label"></label>
+                <input asp-for="CUsuRegistro" class="form-control" />
+                <span asp-validation-for="CUsuRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DFechaRegistro" class="control-label"></label>
+                <input asp-for="DFechaRegistro" class="form-control" />
+                <span asp-validation-for="DFechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CUsuModifica" class="control-label"></label>
+                <input asp-for="CUsuModifica" class="form-control" />
+                <span asp-validation-for="CUsuModifica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DFechaModifica" class="control-label"></label>
+                <input asp-for="DFechaModifica" class="form-control" />
+                <span asp-validation-for="DFechaModifica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

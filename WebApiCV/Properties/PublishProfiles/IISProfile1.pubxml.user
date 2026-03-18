@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2022-07-01T21:09:34.0493142Z;True|2022-07-01T16:00:52.0062640-05:00;True|2022-07-01T15:57:01.4326084-05:00;False|2022-07-01T15:55:11.3548345-05:00;False|2022-07-01T15:46:48.4774334-05:00;False|2022-07-01T15:38:43.7045112-05:00;False|2022-07-01T15:33:52.4596287-05:00;False|2022-07-01T15:33:09.9694219-05:00;False|2022-07-01T15:27:54.5101808-05:00;True|2022-07-01T12:36:34.7274187-05:00;True|2022-07-01T12:33:12.9535693-05:00;False|2022-07-01T12:31:59.9217390-05:00;True|2022-07-01T11:17:37.0082910-05:00;</History>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\LegajosUSS</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
