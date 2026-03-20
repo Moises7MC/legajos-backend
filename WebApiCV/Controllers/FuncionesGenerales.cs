@@ -31,8 +31,6 @@ namespace WebApiCV.Controllers
             //this._repositoryinterf = _repositoryinterf;
         }
 
-       
-
         public  void  getPerCodigoToken(ClaimsPrincipal user)
         {
             //var accessToken = await HttpContext.GetTokenAsync("access_token");
@@ -819,7 +817,6 @@ namespace WebApiCV.Controllers
         }
         /** EBS - 01/2026 <--------------------------- */
 
-
         public ICollection<LegCapacitacionInterna> ListCapacitacionInterna(int parnCapacitacion)
         {
             return (ICollection<LegCapacitacionInterna>)context.LegCapacitacionInterna
@@ -859,10 +856,6 @@ namespace WebApiCV.Controllers
                     NLegConSueldo = x.NLegConSueldo
                 }).Where(x => x.NLegConCodigo == (parnContrato == 0 ? x.NLegConCodigo : parnContrato)).ToList();
         }
-
-
-
-
         public string imgtopdf(string directorio, string srcFilename, int num, string numdni)
         {
             Console.WriteLine($"srcFilename recibido: {srcFilename}");
@@ -911,7 +904,6 @@ namespace WebApiCV.Controllers
             }
             return imgpdf;
         }
-
 
         public String imgtopdf2(String directorio, String srcFilename, int num, String numdni, String area)
         {
@@ -1197,7 +1189,6 @@ namespace WebApiCV.Controllers
                             vNivel = repositorycons.GetConstanteDatos(x.NLegTesNivel, x.NValorNivel).Result
                         }).Where(p => p.NLegTesDatCodigo == parnCodigo && p.CLegTesEstado == true && p.CLegTesValida == false).ToList();
         }
-
       
         public ICollection<LegAdminitrativaCarga> LegDatosCargaAdministrativaSinValidar(int parnCodigo)
         {
@@ -1222,7 +1213,5 @@ namespace WebApiCV.Controllers
                         CLegAdmInstitucionNavigation = x.CLegAdmInstitucion == null ? null : repositorypersona.GetPersonaDatos(x.CLegAdmInstitucion).Result,
                     }).Where(p => p.NLegAdmDatCodigo == parnCodigo && p.CLegAdmEstado == true&&p.CLegAdmValida==false).ToList();
         }
-
-
     }
 }

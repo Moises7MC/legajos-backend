@@ -1103,6 +1103,7 @@ D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\ne
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.MvcApplicationPartsAssemblyInfo.cache
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.RazorAssemblyInfo.cache
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.RazorAssemblyInfo.cs
+D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.sourcelink.json
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.TagHelpers.input.cache
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.TagHelpers.output.cache
 D:\USS\PROYECTOS\Legajos\Backend\WebApiCV-01-2026\WebApiCV\WebApiCV\obj\Debug\net5.0\WebApiCV.RazorCoreGenerate.cache

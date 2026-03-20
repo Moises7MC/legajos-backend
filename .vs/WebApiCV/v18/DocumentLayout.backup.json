@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\uss\\proyectos\\legajos\\backend\\webapicv-01-2026\\webapicv\\webapicv\\controllers\\funcionesgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\controllers\\funcionesgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\uss\\proyectos\\legajos\\backend\\webapicv-01-2026\\webapicv\\webapicv\\data\\legdatosgeneralesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\data\\legdatosgeneralesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|d:\\uss\\proyectos\\legajos\\backend\\webapicv-01-2026\\webapicv\\webapicv\\controllers\\legdatosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C319ED-649D-4DD0-9ABA-C2AB3A785381}|WebApiCV\\WebApiCV.csproj|solutionrelative:webapicv\\controllers\\legdatosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 847,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FuncionesGenerales.cs",
-              "DocumentMoniker": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Controllers\\FuncionesGenerales.cs",
-              "RelativeDocumentMoniker": "WebApiCV\\Controllers\\FuncionesGenerales.cs",
-              "ToolTip": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Controllers\\FuncionesGenerales.cs",
-              "RelativeToolTip": "WebApiCV\\Controllers\\FuncionesGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "Title": "LegDatosGeneralesRepository.cs",
+              "DocumentMoniker": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Data\\LegDatosGeneralesRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCV\\Data\\LegDatosGeneralesRepository.cs",
+              "ToolTip": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Data\\LegDatosGeneralesRepository.cs",
+              "RelativeToolTip": "WebApiCV\\Data\\LegDatosGeneralesRepository.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAewOAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:19:45.173Z",
+              "WhenOpened": "2026-03-20T20:53:19.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LegDatosGeneralesController.cs",
+              "DocumentMoniker": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "RelativeDocumentMoniker": "WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "ToolTip": "D:\\USS\\PROYECTOS\\Legajos\\Backend\\WebApiCV-01-2026\\WebApiCV\\WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "RelativeToolTip": "WebApiCV\\Controllers\\LegDatosGeneralesController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAUwKAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:00:20.674Z",
               "EditorCaption": ""
             }
           ]

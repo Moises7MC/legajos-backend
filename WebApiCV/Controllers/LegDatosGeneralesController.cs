@@ -159,12 +159,14 @@ namespace WebApiCV.Controllers
             if (cantleg == 0)
             {
                 var objs = _repository.GetDatosSEUSS(parcCodigo).Result;
+
                 if (objs == null)
                 {
                     return new JsonResult(new Mensajes(NotFound().StatusCode, false, "No se encontró datos generales en Legajos, proceda a registrar.", objs));
                 }
                 return new JsonResult(new Mensajes(HttpContext.Response.StatusCode, true, "Legajo no tiene datos generales, se cargaron datos de SEUSS, proceda a completar los datos y guardar.", objs));
             }
+
             var obj = funcion.LegDatosReturn(parcCodigo);
             var codigodg = obj.NLegDatCodigo;
             obj.LegAdminitrativaCarga = funcion.LegDatosCargaAdministrativa(codigodg);

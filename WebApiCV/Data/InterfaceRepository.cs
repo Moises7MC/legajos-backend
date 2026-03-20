@@ -47,8 +47,7 @@ namespace WebApiCV.Data
             }
         }
 
-        public async Task<Interface>
-        GetInterfaceDatos(int pnIntCodigo, int pnIntClase)
+        public async Task<Interface>GetInterfaceDatos(int pnIntCodigo, int pnIntClase)
         {
             using (SqlConnection sql = new SqlConnection(_connectionString))
             {

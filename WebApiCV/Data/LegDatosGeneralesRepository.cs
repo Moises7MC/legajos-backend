@@ -217,6 +217,8 @@ namespace WebApiCV.Data
                         : repositorycons.GetConstanteDatos((int) reader["nLegDatEstadoCivil"],(int) reader["nClaseEstadoCivil"]).Result?? null,
                 vTipoDoc = reader["nClaseTipoDoc"] == null ? null
                         : repositoryinterf.GetInterfaceDatos((int) reader["NLegDatTipoDoc"],(int) reader["nClaseTipoDoc"]).Result?? null,
+                vPais = (reader["nClasePais"] == DBNull.Value || (int)reader["nClasePais"] == 0) ? null
+                        : repositoryinterf.GetInterfaceDatos((int)reader["nLegDatPais"], (int)reader["nClasePais"]).Result ?? null,
                 vTipoDomicilio = reader["nValorTipoDomicilio"] == null ? null
                         : repositorycons.GetConstanteDatos((int) reader["nLegDatTipoDomicilio"],(int) reader["nValorTipoDomicilio"]).Result?? null
             };
