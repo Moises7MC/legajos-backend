@@ -28,13 +28,43 @@ namespace WebApiCV.Controllers
             this.repositorypersona = repositorypersona;
             this.funcion = new FuncionesGenerales(context, repositorycons, repositoryinterf, repositorypersona);
         }
+
+        //[HttpGet]
+        //public ActionResult<IEnumerable<CapacitacionesUss>> Get()
+        //{
+        //    var obj = context.CapacitacionesUss.Where(x => x.BCapEstado == true).ToList();
+        //    return new JsonResult(new Mensajes(HttpContext.Response.StatusCode, true,
+        //        (obj.Count > 0 ? "Se ha encontrado " + obj.Count.ToString() + " registro(s)." : "No se ha encontrado registros."), obj));
+        //}
+
         [HttpGet]
-        public ActionResult<IEnumerable<CapacitacionesUss>> Get()
+        public IActionResult Get()
         {
-            var obj = context.CapacitacionesUss.Where(x => x.BCapEstado == true).ToList();
-            return new JsonResult(new Mensajes(HttpContext.Response.StatusCode, true,
-                (obj.Count > 0 ? "Se ha encontrado " + obj.Count.ToString() + " registro(s)." : "No se ha encontrado registros."), obj));
+            var data = context.CapacitacionesUss
+                .Where(x => x.BCapEstado == true)
+                .Select(x => new CapacitacionesUssDto
+                {
+                    NCapCodigo = x.NCapCodigo,
+                    CCapTema = x.CCapTema,
+                    BCapEstado = x.BCapEstado
+                })
+                .ToList();
+
+            return Ok(new Mensajes(
+                StatusCodes.Status200OK,
+                true,
+                data.Any()
+                    ? $"Se ha encontrado {data.Count} registro(s)."
+                    : "No se ha encontrado registros.",
+                data
+            ));
         }
+
+        //[HttpGet]
+        //public IActionResult Get()
+        //{
+        //    return Ok("TEST");
+        //}
 
         [HttpGet("{parnId}", Name = "ObtenerCapacitacionUSS")]
         public ActionResult<CapacitacionesUss> Get(Int64 parnId)
@@ -72,6 +102,5 @@ namespace WebApiCV.Controllers
             }
 
         }
-
     }
 }

@@ -78,8 +78,7 @@ namespace WebApiCV.Data
                 }
             }
         }
-        public async Task<List<Interface>>
-        GetInterfaceDatosPorTipoClase(int nTipo, int pnIntClase)
+        public async Task<List<Interface>>GetInterfaceDatosPorTipoClase(int nTipo, int pnIntClase)
         {
             using (SqlConnection sql = new SqlConnection(_connectionString))
             {
@@ -122,8 +121,7 @@ namespace WebApiCV.Data
             };
         }
 
-        public async Task<List<Interface>>
-        GetInterfaceMenu(string cPerUsuCodigo,int pTipo)
+        public async Task<List<Interface>>GetInterfaceMenu(string cPerUsuCodigo,int pTipo)
         {
             using(SqlConnection sql = new SqlConnection(_connectionString))
             {
@@ -164,11 +162,8 @@ namespace WebApiCV.Data
             };
         }
 
-      
 
-
-        public async Task<List<Interface>>
-        GetInterfacePermisos()
+        public async Task<List<Interface>>GetInterfacePermisos()
         {
             using (SqlConnection sql = new SqlConnection(_connectionString))
             {
@@ -190,6 +185,5 @@ namespace WebApiCV.Data
             }
 
         }
-        
     }
 }
